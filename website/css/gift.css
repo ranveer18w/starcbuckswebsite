@@ -1,0 +1,106 @@
+.tabledata{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 274PX;
+        border-radius: 20px;
+        padding: 20px;
+        padding-bottom: 40px;    
+        background-color:bisque ;
+        box-shadow: 5px;
+
+}
+
+.tabledatatext{
+    margin-left: 5px;
+     padding-left: 5px; 
+     font-size: small;
+}
+
+
+.tableimage{
+    height: 100px;
+     width: 140px;
+    float: left;
+    border-radius: 10%;
+
+}
+
+#Gifts{
+    padding-left: 80px;
+    margin-top: 5px;
+    padding-top: 20px;
+    
+}
+
+.backkey{
+    text-decoration: none;
+    color: grey; 
+    padding-left: 5px;
+    }
+
+.backfunction{
+    margin-left: 24px;
+     padding-left: 20px;
+     padding-right: 20px;
+    }
+
+.table{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#Addtocartbox{
+    
+    text-align: center;
+    margin-top: 20px;
+    background-color: yellow;
+    border-radius: 15px;
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+   
+}
+#addtocart{
+    padding-left: 10px ;
+    padding-right: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 1px;
+}
+
+#addtocart:hover{
+    color: rgb(255, 3, 3);
+}
+.additem{
+        padding: 6px 18px;
+        font-size: 12px;
+        border-radius: 30px;
+        font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+        box-shadow: 0 4px 15px #a3a3a3ad;
+        background-color:#00754A;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 30%;
+}
+
+.textbox{
+    margin-left: 25px;
+    padding-left: 28px;
+    font-size: 24px;
+    color: #212529
+}
+
+hr{
+    display: block;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer{
+    height: 683px;
+    width: 500px;
+    background-color: #0e382c;
+    padding: 128px 32px 32px 32px;
+}
+
+

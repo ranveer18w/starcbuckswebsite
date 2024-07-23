@@ -1,0 +1,21 @@
+.categoryrow{
+   
+   display: flex;
+   margin-left: 15px;
+   margin-right: 15px;
+   padding: 12.8px;  
+   background-color: #f2f0eb; 
+   margin-top: 0px;
+}
+
+.catergorydata{
+    margin-left: 15px;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+    padding-right: ;   
+    }
+.anchor{
+    text-decoration: none;
+    color: black;
+}

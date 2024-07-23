@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/rsd.css">
+    <link rel="html" href="../css/gift.css">
+</head>
+
+<style>
+     
+    
+</style>
+<body id="Home">
+        <header id="header">
+            <nav>
+                <div>
+                <div class="navi">
+                    <img class="logo" src="../category/logo.png" alt="">
+                </div>
+                <div class="home" style="padding-top: 10px;">
+                    <a href="new.html#header">Home</a>
+                    <a href="gift.html#Gift">Gift</a>
+                    <a href="order.html">Order</a>
+                    <a href="Pay">Pay</a>
+                    <a href="">About</a>
+                </div>
+                </div>
+
+                <div id="contact">
+                    <a href=""><button id="button">Contact Us</button></a>
+                </div>
+            </nav>
+        </header>
+        <div class="banner">
+            <span class="Starbucks">Starbucks</span>
+            
+        </div>
+
+        <div class="products">
+            <h2 id="head1">Hand crafted</h2>
+        </div>
+
+        <div class="all">
+            <div class="imagesofcoffee">
+                <span >
+                    <img class="Bestseller" src="../category/Bestseller.png" alt="">
+                </span>
+                <p >Bestseller</p>
+            </div>
+
+            <div class="imagesofcoffee">
+                <span>
+                    <img class="Bestseller" src="../category/drinks.png" alt="">
+                </span>
+                <p >Drinks</p>
+            </div>
+
+            <div class="imagesofcoffee">
+                <img class="Bestseller" src="../category/Food.png" alt="">
+                <p>Food</p>
+            </div>
+
+            <div class="imagesofcoffee">
+                <img class="Bestseller" src="../category/Merchandise.png" alt="">
+                <p>Merchandise</p>
+            </div>
+            <div class="imagesofcoffee">
+                <img class="Bestseller" src="../category/CoffeeAtHome.png" alt="">
+                <p>CoffeeAtHome</p>
+            </div>
+
+            <div class="imagesofcoffee">
+                <img class="Bestseller" src="../category/ReadyToEat.png" alt="">
+                <p>ReadyToEat</p>
+            </div>
+        </div>
+
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // Get the header content
+                var headerContent = document.getElementById('header').outerHTML;
+    
+                // Store the header content in localStorage
+                localStorage.setItem('headerContent', headerContent);
+            });
+        </script>
+
+
+    
+</body>
+</html>
